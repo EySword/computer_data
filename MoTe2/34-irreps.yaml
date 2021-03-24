@@ -1,0 +1,150 @@
+q-position: [    0.0000000,    0.0000000,    0.0000000 ]
+point_group: -3
+transformation_matrix:
+- [ -0.3333333,  0.6666667, -0.3333333 ]
+- [ -0.6666667,  0.3333333,  0.3333333 ]
+- [  0.3333333,  0.3333333,  0.3333333 ]
+rotations:
+- matrix:
+  - [  1,  0,  0 ]
+  - [  0,  1,  0 ]
+  - [  0,  0,  1 ]
+  symbol: E
+- matrix:
+  - [ -1,  0,  0 ]
+  - [  0, -1,  0 ]
+  - [  0,  0, -1 ]
+  symbol: i
+- matrix:
+  - [  0, -1,  0 ]
+  - [  1, -1,  0 ]
+  - [  0,  0,  1 ]
+  symbol: C3
+- matrix:
+  - [  0,  1,  0 ]
+  - [ -1,  1,  0 ]
+  - [  0,  0, -1 ]
+  symbol: S6
+- matrix:
+  - [ -1,  1,  0 ]
+  - [ -1,  0,  0 ]
+  - [  0,  0,  1 ]
+  symbol: C3
+- matrix:
+  - [  1, -1,  0 ]
+  - [  1,  0,  0 ]
+  - [  0,  0, -1 ]
+  symbol: S6
+normal_modes:
+- band_indices: [ 1 ]
+  frequency: -0.0478934797  
+  ir_label: Au
+  characters: [ [  1,   0.0 ], [  1, 180.0 ], [  1,   0.0 ], [  1, 180.0 ], [  1,   0.0 ], [  1, 180.0 ] ]
+- band_indices: [ 2, 3 ]
+  frequency: -0.0124793401  
+  ir_label: Eu
+  characters: [ [  2,   0.0 ], [  2, 180.0 ], [  1, 180.0 ], [  1,   0.0 ], [  1, 180.0 ], [  1,   0.0 ] ]
+- band_indices: [ 4 ]
+  frequency: 58.5078816909  
+  ir_label: Ag
+  characters: [ [  1,   0.0 ], [  1,   0.0 ], [  1,   0.0 ], [  1,   0.0 ], [  1,   0.0 ], [  1,   0.0 ] ]
+- band_indices: [ 5, 6 ]
+  frequency: 64.9183979110  
+  ir_label: Eg
+  characters: [ [  2,   0.0 ], [  2,   0.0 ], [  1, 180.0 ], [  1, 180.0 ], [  1, 180.0 ], [  1, 180.0 ] ]
+- band_indices: [ 7, 8 ]
+  frequency: 85.7692636232  
+  ir_label: Eu
+  characters: [ [  2,   0.0 ], [  2, 180.0 ], [  1, 180.0 ], [  1,   0.0 ], [  1, 180.0 ], [  1,   0.0 ] ]
+- band_indices: [ 9, 10 ]
+  frequency: 91.0260704688  
+  ir_label: Eg
+  characters: [ [  2,   0.0 ], [  2,   0.0 ], [  1, 180.0 ], [  1, 180.0 ], [  1, 180.0 ], [  1, 180.0 ] ]
+- band_indices: [ 11 ]
+  frequency: 94.4264578221  
+  ir_label: Au
+  characters: [ [  1,   0.0 ], [  1, 180.0 ], [  1,   0.0 ], [  1, 180.0 ], [  1,   0.0 ], [  1, 180.0 ] ]
+- band_indices: [ 12, 13 ]
+  frequency: 97.4084097177  
+  ir_label: Eu
+  characters: [ [  2,   0.0 ], [  2, 180.0 ], [  1, 180.0 ], [  1,   0.0 ], [  1, 180.0 ], [  1,   0.0 ] ]
+- band_indices: [ 14 ]
+  frequency: 103.5439155433 
+  ir_label: Ag
+  characters: [ [  1,   0.0 ], [  1,   0.0 ], [  1,   0.0 ], [  1,   0.0 ], [  1,   0.0 ], [  1,   0.0 ] ]
+- band_indices: [ 15, 16 ]
+  frequency: 114.1643035229 
+  ir_label: Eu
+  characters: [ [  2,   0.0 ], [  2, 180.0 ], [  1, 180.0 ], [  1,   0.0 ], [  1, 180.0 ], [  1,   0.0 ] ]
+- band_indices: [ 17, 18 ]
+  frequency: 118.3079826980 
+  ir_label: Eg
+  characters: [ [  2,   0.0 ], [  2,   0.0 ], [  1, 180.0 ], [  1, 180.0 ], [  1, 180.0 ], [  1, 180.0 ] ]
+- band_indices: [ 19 ]
+  frequency: 118.8159536469 
+  ir_label: Au
+  characters: [ [  1,   0.0 ], [  1, 180.0 ], [  1,   0.0 ], [  1, 180.0 ], [  1,   0.0 ], [  1, 180.0 ] ]
+- band_indices: [ 20 ]
+  frequency: 120.7300879526 
+  ir_label: Ag
+  characters: [ [  1,   0.0 ], [  1,   0.0 ], [  1,   0.0 ], [  1,   0.0 ], [  1,   0.0 ], [  1,   0.0 ] ]
+- band_indices: [ 21, 22 ]
+  frequency: 138.3450013940 
+  ir_label: Eg
+  characters: [ [  2,   0.0 ], [  2,   0.0 ], [  1, 180.0 ], [  1, 180.0 ], [  1, 180.0 ], [  1, 180.0 ] ]
+- band_indices: [ 23 ]
+  frequency: 154.0994238256 
+  ir_label: Au
+  characters: [ [  1,   0.0 ], [  1, 180.0 ], [  1,   0.0 ], [  1, 180.0 ], [  1,   0.0 ], [  1, 180.0 ] ]
+- band_indices: [ 24 ]
+  frequency: 159.4254109174 
+  ir_label: Ag
+  characters: [ [  1,   0.0 ], [  1,   0.0 ], [  1,   0.0 ], [  1,   0.0 ], [  1,   0.0 ], [  1,   0.0 ] ]
+- band_indices: [ 25 ]
+  frequency: 173.2590418474 
+  ir_label: Ag
+  characters: [ [  1,   0.0 ], [  1,   0.0 ], [  1,   0.0 ], [  1,   0.0 ], [  1,   0.0 ], [  1,   0.0 ] ]
+- band_indices: [ 26, 27 ]
+  frequency: 177.8033709565 
+  ir_label: Eu
+  characters: [ [  2,   0.0 ], [  2, 180.0 ], [  1, 180.0 ], [  1,   0.0 ], [  1, 180.0 ], [  1,   0.0 ] ]
+- band_indices: [ 28 ]
+  frequency: 181.8003520824 
+  ir_label: Au
+  characters: [ [  1,   0.0 ], [  1, 180.0 ], [  1,   0.0 ], [  1, 180.0 ], [  1,   0.0 ], [  1, 180.0 ] ]
+- band_indices: [ 29, 30 ]
+  frequency: 185.8491898928 
+  ir_label: Eg
+  characters: [ [  2,   0.0 ], [  2,   0.0 ], [  1, 180.0 ], [  1, 180.0 ], [  1, 180.0 ], [  1, 180.0 ] ]
+- band_indices: [ 31, 32 ]
+  frequency: 192.0855275498 
+  ir_label: Eg
+  characters: [ [  2,   0.0 ], [  2,   0.0 ], [  1, 180.0 ], [  1, 180.0 ], [  1, 180.0 ], [  1, 180.0 ] ]
+- band_indices: [ 33, 34 ]
+  frequency: 210.8277731965 
+  ir_label: Eu
+  characters: [ [  2,   0.0 ], [  2, 180.0 ], [  1, 180.0 ], [  1,   0.0 ], [  1, 180.0 ], [  1,   0.0 ] ]
+- band_indices: [ 35 ]
+  frequency: 216.8928337206 
+  ir_label: Au
+  characters: [ [  1,   0.0 ], [  1, 180.0 ], [  1,   0.0 ], [  1, 180.0 ], [  1,   0.0 ], [  1, 180.0 ] ]
+- band_indices: [ 36, 37 ]
+  frequency: 231.6641477841 
+  ir_label: Eu
+  characters: [ [  2,   0.0 ], [  2, 180.0 ], [  1, 180.0 ], [  1,   0.0 ], [  1, 180.0 ], [  1,   0.0 ] ]
+- band_indices: [ 38 ]
+  frequency: 240.4022928432 
+  ir_label: Ag
+  characters: [ [  1,   0.0 ], [  1,   0.0 ], [  1,   0.0 ], [  1,   0.0 ], [  1,   0.0 ], [  1,   0.0 ] ]
+- band_indices: [ 39 ]
+  frequency: 246.8960307951 
+  ir_label: Au
+  characters: [ [  1,   0.0 ], [  1, 180.0 ], [  1,   0.0 ], [  1, 180.0 ], [  1,   0.0 ], [  1, 180.0 ] ]
+- band_indices: [ 40, 41 ]
+  frequency: 256.3250946697 
+  ir_label: Eg
+  characters: [ [  2,   0.0 ], [  2,   0.0 ], [  1, 180.0 ], [  1, 180.0 ], [  1, 180.0 ], [  1, 180.0 ] ]
+- band_indices: [ 42 ]
+  frequency: 260.1347521165 
+  ir_label: Ag
+  characters: [ [  1,   0.0 ], [  1,   0.0 ], [  1,   0.0 ], [  1,   0.0 ], [  1,   0.0 ], [  1,   0.0 ] ]

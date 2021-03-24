@@ -1,0 +1,15 @@
+#!/bin/sh
+
+mkdir Raman
+cp phonopy_disp.yaml ./Raman 
+for i in {001..003}
+
+do
+cd $i-scf
+cp POSCAR vasprun.xml ../Raman
+cd ../Raman
+mv vasprun.xml vasprun.xml-$i
+mv POSCAR POSCAR-$i
+cd ../
+
+done

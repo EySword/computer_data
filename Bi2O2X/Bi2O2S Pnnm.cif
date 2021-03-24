@@ -1,0 +1,87 @@
+
+#(C) 2018 by FIZ Karlsruhe - Leibniz Institute for Information Infrastructure.  All rights reserved.
+data_29451-ICSD
+_database_code_ICSD 29451
+_audit_creation_date 1985-01-24
+_audit_update_record 1985-01-29
+_chemical_name_systematic 'Dibismuth dioxide sulfide'
+_chemical_formula_structural 'Bi2 O2 S'
+_chemical_formula_sum 'Bi2 O2 S1'
+_exptl_crystal_density_diffrn 9.03
+_cell_measurement_temperature 298.
+_publ_section_title
+
+;
+Crystal Chemistry of Oxide-Chalkogenides. II. Synthesis and Crystal Structure
+of the First Bismuth Oxide-Sulfide, Bi2 O2 S
+;
+loop_
+_citation_id
+_citation_journal_full
+_citation_year
+_citation_journal_volume
+_citation_page_first
+_citation_page_last
+_citation_journal_id_ASTM
+primary 'Acta Crystallographica, Section B: Structural Science' 1984 40 105 109
+ASBSDK
+loop_
+_publ_author_name
+'Koyama, E.'
+'Nakai, I.'
+'Nagashima, K.'
+_cell_length_a 3.874(1)
+_cell_length_b 11.916(2)
+_cell_length_c 3.840(1)
+_cell_angle_alpha 90.
+_cell_angle_beta 90.
+_cell_angle_gamma 90.
+_cell_volume 177.26
+_cell_formula_units_Z 2
+_symmetry_space_group_name_H-M 'P n n m'
+_symmetry_Int_Tables_number 58
+_refine_ls_R_factor_all 0.057
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 'x+1/2, -y+1/2, z+1/2'
+2 '-x+1/2, y+1/2, z+1/2'
+3 'x, y, -z'
+4 '-x, -y, -z'
+5 '-x+1/2, y+1/2, -z+1/2'
+6 'x+1/2, -y+1/2, -z+1/2'
+7 '-x, -y, z'
+8 'x, y, z'
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Bi3+ 3
+O2- -2
+S2- -2
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_B_iso_or_equiv
+_atom_site_occupancy
+_atom_site_attached_hydrogens
+Bi1 Bi3+ 4 g 0.0806(1) 0.35677(4) 0 . 1. 0
+O1 O2- 4 g 0.5578(21) 0.2503(8) 0 . 1. 0
+S1 S2- 2 a 0 0 0 . 1. 0
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_type_symbol
+_atom_site_aniso_beta_11
+_atom_site_aniso_beta_22
+_atom_site_aniso_beta_33
+_atom_site_aniso_beta_12
+_atom_site_aniso_beta_13
+_atom_site_aniso_beta_23
+Bi1 Bi3+ 0.0177(2) 0.00131(2) 0.0188(2) 0.00121(6) 0 0
+O1 O2- 0.0220(44) 0.0012(3) 0.0132(39) 0.0029(12) 0 0
+S1 S2- 0.0150(17) 0.0030(3) 0.0194(24) 0.0019(7) 0 0
+#End of TTdata_29451-ICSD

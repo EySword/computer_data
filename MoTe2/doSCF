@@ -1,0 +1,12 @@
+#!/bin/sh
+
+for i in {001..003}
+do
+mkdir $i-scf
+cp POSCAR-$i ./$i-scf
+cp INCAR POTCAR	vasp.lsf vdw_kernel.bindat ./$i-scf
+cd $i-scf
+mv POSCAR-$i POSCAR
+bsub<vasp.lsf
+cd ../
+done
