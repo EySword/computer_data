@@ -1,0 +1,77 @@
+data_T-alpha-PC
+_audit_creation_date              2021-03-25
+_audit_creation_method            'Materials Studio'
+_symmetry_space_group_name_H-M    'P1'
+_symmetry_Int_Tables_number       1
+_symmetry_cell_setting            triclinic
+loop_
+_symmetry_equiv_pos_as_xyz
+  x,y,z
+_cell_length_a                    9.8400
+_cell_length_b                    5.1100
+_cell_length_c                    30.0000
+_cell_angle_alpha                 90.0000
+_cell_angle_beta                  90.0000
+_cell_angle_gamma                 90.0000
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+P1     P     0.00000   0.00000   0.07551   0.00000  Uiso   1.00
+P2     P     0.00000   0.44814   0.07551   0.00000  Uiso   1.00
+P3     P     0.50000   0.22407   0.00000   0.00000  Uiso   1.00
+P4     P     0.50000   0.77593   0.00000   0.00000  Uiso   1.00
+P5     P     0.05645   0.00000   0.00000   0.00000  Uiso   1.00
+P6     P     0.05645   0.55186   0.00000   0.00000  Uiso   1.00
+C7     C     0.24446   1.00000   0.00000   0.00000  Uiso   1.00
+C8     C     0.24446   0.50000   0.00000   0.00000  Uiso   1.00
+C9     C     0.31199   0.25000   0.00000   0.00000  Uiso   1.00
+C10    C     0.31199   0.75000   0.00000   0.00000  Uiso   1.00
+P11    P     0.55645   0.27593   0.07551   0.00000  Uiso   1.00
+P12    P     0.55645   0.72407   0.07551   0.00000  Uiso   1.00
+C13    C     0.74446   0.25000   0.07551   0.00000  Uiso   1.00
+C14    C     0.74446   0.70000   0.07551   0.00000  Uiso   1.00
+C15    C     0.81199   0.00000   0.07551   0.00000  Uiso   1.00
+C16    C     0.81199   0.50000   0.07551   0.00000  Uiso   1.00
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_ccdc_geom_bond_type
+P1     P2      2.290   .     S
+P1     P5      2.332   .     S
+P1     C15     1.850   1_455 S
+P2     P6      2.392   .     S
+P2     C16     1.869   1_455 S
+P3     C9      1.855   .     S
+P3     P11     2.347   .     S
+P3     P4      2.290   1_545 S
+P4     C10     1.855   .     S
+P4     P12     2.347   .     S
+P4     P3      2.290   1_565 S
+P5     C7      1.850   1_545 S
+P5     P6      2.290   1_545 S
+P6     P5      2.290   1_565 S
+P6     C8      1.869   .     S
+C7     P5      1.850   1_565 S
+C7     C10     1.440   .     S
+C7     C9      1.440   1_565 S
+C8     C9      1.440   .     S
+C8     C10     1.440   .     S
+C9     C7      1.440   1_545 S
+P11    P12     2.290   .     S
+P11    C13     1.855   .     S
+P12    C14     1.854   .     S
+C13    C15     1.440   .     S
+C13    C16     1.440   .     S
+C14    C16     1.219   .     S
+C14    C15     1.671   1_565 S
+C15    P1      1.850   1_655 S
+C15    C14     1.671   1_545 S
+C16    P2      1.869   1_655 S
