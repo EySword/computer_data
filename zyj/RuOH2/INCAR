@@ -1,0 +1,40 @@
+ SYSTEM = MOH2
+
+ PREC=A
+
+ ENCUT=520
+ EDIFF=1E-8
+ ISMEAR= 0      # -5 tetrahedron method with Blochl corrections, 0 Gaussian smearing......
+ SIGMA=0.05
+
+ LORBIT=11
+ NEDOS=5000
+
+ ADDGRID=.T.
+
+ NSW=200
+ IBRION=2
+ ISIF=3
+ EDIFFG=-0.005
+
+ #LWAVE=.F.
+ #LCHARG=.F.
+ 
+
+ #AMIX   =       0.2
+ #BMIX   =       0.0001 ! almost zero, but 0 will crash some versions
+ #AMIX_MAG       =       0.8
+ #BMIX_MAG       =       0.0001 ! almost zero, but 0 will crash some versions
+
+
+ NPAR=4
+ 
+ LDAU=.True.
+ LDAUTYPE=2
+ LDAUL= 2   -1 -1
+ LDAUU= 3 0  0
+ LDAUJ= 0.5   0  0
+ LDAUPRINT = 1
+ LMAXMIX=4
+ 
+ 
