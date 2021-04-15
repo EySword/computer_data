@@ -1,0 +1,60 @@
+data_Calpha
+_audit_creation_date              2021-04-14
+_audit_creation_method            'Materials Studio'
+_symmetry_space_group_name_H-M    'PM'
+_symmetry_Int_Tables_number       6
+_symmetry_cell_setting            monoclinic
+loop_
+_symmetry_equiv_pos_as_xyz
+  x,y,z
+  x,-y,z
+_cell_length_a                    10.3200
+_cell_length_b                    4.9100
+_cell_length_c                    20.0000
+_cell_angle_alpha                 90.0000
+_cell_angle_beta                  90.0000
+_cell_angle_gamma                 90.0000
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+C1     C     0.11609   0.15647  -0.00007   0.00000  Uiso   1.00
+C2     C     0.01120   0.35086  -0.00011   0.00000  Uiso   1.00
+C5     C     0.62604   0.15643  -0.10574   0.00000  Uiso   1.00
+C6     C     0.52118   0.35085  -0.10570   0.00000  Uiso   1.00
+P9     P     0.35310   0.23098  -0.10830   0.00000  Uiso   1.00
+P10    P     0.28421   0.27631   0.00254   0.00000  Uiso   1.00
+P13    P     0.86290   0.23092   0.00245   0.00000  Uiso   1.00
+P14    P     0.79416   0.27627  -0.10838   0.00000  Uiso   1.00
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_ccdc_geom_bond_type
+C1     C2      1.443   .     S
+C1     P10     1.833   .     S
+C1     C1      1.537   2     S
+C2     C2      1.465   2_565 S
+C2     P13     1.641   1_455 S
+C5     C6      1.443   .     S
+C5     P14     1.833   .     S
+C5     C5      1.536   2     S
+C6     C6      1.465   2_565 S
+C6     P9      1.832   .     S
+P9     P10     2.339   .     S
+P9     P9      2.642   2_565 S
+P9     P9      2.268   2     S
+P10    P10     2.197   2_565 S
+P10    P10     2.713   2     S
+P13    P14     2.338   .     S
+P13    P13     2.642   2_565 S
+P13    C2      1.641   1_655 S
+P13    P13     2.268   2     S
+P14    P14     2.197   2_565 S
+P14    P14     2.713   2     S

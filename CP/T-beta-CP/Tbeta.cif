@@ -1,0 +1,47 @@
+data_Tbeta
+_audit_creation_date              2021-04-14
+_audit_creation_method            'Materials Studio'
+_symmetry_space_group_name_H-M    'P21/C'
+_symmetry_Int_Tables_number       14
+_symmetry_cell_setting            monoclinic
+loop_
+_symmetry_equiv_pos_as_xyz
+  x,y,z
+  -x,y+1/2,-z+1/2
+  -x,-y,-z
+  x,-y+1/2,z+1/2
+_cell_length_a                    15.0000
+_cell_length_b                    5.1100
+_cell_length_c                    10.6400
+_cell_angle_alpha                 90.0000
+_cell_angle_beta                  90.0000
+_cell_angle_gamma                 90.0000
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+P1     P    -0.06108   0.14811   0.18539   0.00000  Uiso   1.00
+P2     P     0.06233   0.09526   0.31093   0.00000  Uiso   1.00
+C9     C     0.00917   0.12193   0.46866   0.00000  Uiso   1.00
+C11    C     0.00751  -0.37286   0.47277   0.00000  Uiso   1.00
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_ccdc_geom_bond_type
+P1     P2      2.299   .     S
+P1     P2      2.285   2     S
+P1     C11     1.868   2     S
+P2     P1      2.285   2_545 S
+P2     C9      1.863   .     S
+C9     C9      1.440   3_556 S
+C9     C11     1.447   3_556 S
+C11    C9      1.447   3_556 S
+C11    P1      1.868   2_545 S
+C11    C11     1.440   3_546 S
