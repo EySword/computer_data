@@ -1,13 +1,12 @@
+a='  0.1846304986686029  0.1510873441856226  0.9403188312619921'
 
+b=a.lstrip().split('  ')
 
+numbers = list(map(float, b))
+print(type(numbers[1]))
+# print(b)
 
-aim=1.15
-
-print(aim)
-percent_aim=((aim-1)*100)
-print(percent_aim)
-percent_aim=round(percent_aim/1)
-print(type(percent_aim))
-percent_aim=str(percent_aim)+'%'
-print(percent_aim)
-
+c=[[1,2],5,3,2,4]
+# d=c.pop()
+e=c.reverse()
+print(e,c)
