@@ -18,7 +18,8 @@ initPOSCAR=open('POSCAR','r')
 Plines=initPOSCAR.readlines()
 
 # N=int(sys.argv[1]) #选择N
-N=3
+N=int(input('input N: '))
+
 #读取a，b，c
 
 a=float(Plines[2].split()[0])
@@ -76,15 +77,15 @@ radius=perimeter/2/math.pi #半径
 eleListPolar=[] #极坐标列表
 angleRate=2*math.pi/N
 for i in range(eleSum):
-    #删除末尾元素以首位相接
-    eleListCart[i].pop()
-    eleListFract[i].pop()
+    # #删除末尾元素以首位相接
+    # eleListCart[i].pop()
+    # eleListFract[i].pop()
     tempEleListPolar=[]
     # print("it's ele {}".format(i))
     for n in range(N):
         tempListForN=[]
         # print('it\'s {}'.format(n))
-        for j in range(int(eleNum[i])-1):
+        for j in range(int(eleNum[i])):
             eleData3=copy.deepcopy(eleListCart[i][j])
             eleData3[0]=angleRate*n+eleListFract[i][j][0]*angleRate
             eleData3[2]=radius+eleData3[2]
@@ -130,7 +131,7 @@ outc=radius*2+15
 # print(outa,outb,outc)
 #写入新的POSCAR
 
-newPOSCAR=open('pipPOSCAR_N'+str(N),'w')
+newPOSCAR=open('tubePOSCAR_N'+str(N),'w')
 newPOSCAR.writelines(Plines[:2])
 newPOSCAR.writelines('    '+str(outa)+'    0.0000000000000000    0.0000000000000000\n')
 newPOSCAR.writelines('     0.0000000000000000    '+str(outb)+'    0.0000000000000000\n')
@@ -184,3 +185,5 @@ pass
 
 initPOSCAR.close()
 newPOSCAR.close()
+
+print('POSCAR_N={} has been made, radius={}'.format(N,radius))
