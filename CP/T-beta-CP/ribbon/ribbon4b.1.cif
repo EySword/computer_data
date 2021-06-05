@@ -1,0 +1,105 @@
+data_ribbon4b.1
+_audit_creation_date              2021-06-02
+_audit_creation_method            'Materials Studio'
+_symmetry_space_group_name_H-M    'P1'
+_symmetry_Int_Tables_number       1
+_symmetry_cell_setting            triclinic
+loop_
+_symmetry_equiv_pos_as_xyz
+  x,y,z
+_cell_length_a                    14.5653
+_cell_length_b                    5.1100
+_cell_length_c                    42.3600
+_cell_angle_alpha                 90.0000
+_cell_angle_beta                  90.0000
+_cell_angle_gamma                 90.0000
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+P1     P     0.06290   0.85189   0.20373   0.00000  Uiso   1.00
+P2     P    -0.06419   0.90474   0.17220   0.00000  Uiso   1.00
+P3     P    -0.06290   0.35189   0.17127   0.00000  Uiso   1.00
+P4     P     0.06419   0.40474   0.20280   0.00000  Uiso   1.00
+C5     C     0.00944   0.37807   0.24219   0.00000  Uiso   1.00
+C6     C     0.00773   0.87286   0.24322   0.00000  Uiso   1.00
+P7     P    -0.06290   0.14811   0.29627   0.00000  Uiso   1.00
+P8     P     0.06419   0.09526   0.32780   0.00000  Uiso   1.00
+C9     C     0.00944   0.12193   0.36719   0.00000  Uiso   1.00
+C10    C     0.00773   0.62714   0.36822   0.00000  Uiso   1.00
+P11    P     0.06290   0.64811   0.32873   0.00000  Uiso   1.00
+P12    P    -0.06419   0.59526   0.29720   0.00000  Uiso   1.00
+C13    C    -0.00944   0.62193   0.25781   0.00000  Uiso   1.00
+C14    C    -0.00773   0.12714   0.25678   0.00000  Uiso   1.00
+P15    P     0.06290   0.85189   0.45373   0.00000  Uiso   1.00
+P16    P    -0.06419   0.90474   0.42220   0.00000  Uiso   1.00
+C17    C    -0.00944   0.87807   0.38281   0.00000  Uiso   1.00
+C18    C    -0.00773   0.37286   0.38178   0.00000  Uiso   1.00
+P19    P    -0.06290   0.35189   0.42127   0.00000  Uiso   1.00
+P20    P     0.06419   0.40474   0.45280   0.00000  Uiso   1.00
+C21    C     0.00944   0.37807   0.49219   0.00000  Uiso   1.00
+C22    C     0.00773   0.87286   0.49322   0.00000  Uiso   1.00
+P23    P    -0.06290   0.14811   0.54627   0.00000  Uiso   1.00
+P24    P     0.06419   0.09526   0.57780   0.00000  Uiso   1.00
+P25    P     0.06290   0.64811   0.57873   0.00000  Uiso   1.00
+P26    P    -0.06419   0.59526   0.54720   0.00000  Uiso   1.00
+C27    C    -0.00944   0.62193   0.50781   0.00000  Uiso   1.00
+C28    C    -0.00773   0.12714   0.50678   0.00000  Uiso   1.00
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_ccdc_geom_bond_type
+P1     P2      2.299   .     S
+P1     P4      2.285   .     S
+P1     C6      1.859   .     S
+P2     P3      2.285   1_565 S
+P3     P4      2.299   .     S
+P3     P2      2.285   1_545 S
+P4     C5      1.854   .     S
+C5     C14     1.445   .     S
+C5     C13     1.438   .     S
+C6     C13     1.445   .     S
+C6     C14     1.438   1_565 S
+P7     P8      2.299   .     S
+P7     P12     2.285   .     S
+P7     C14     1.859   .     S
+P8     C9      1.854   .     S
+P8     P11     2.285   1_545 S
+C9     C18     1.445   .     S
+C9     C17     1.438   1_545 S
+C10    P11     1.859   .     S
+C10    C17     1.445   .     S
+C10    C18     1.438   .     S
+P11    P12     2.299   .     S
+P11    P8      2.285   1_565 S
+P12    C13     1.854   .     S
+C14    C6      1.438   1_545 S
+P15    P16     2.299   .     S
+P15    P20     2.285   .     S
+P15    C22     1.859   .     S
+P16    C17     1.854   .     S
+P16    P19     2.285   1_565 S
+C17    C9      1.438   1_565 S
+C18    P19     1.859   .     S
+P19    P20     2.299   .     S
+P19    P16     2.285   1_545 S
+P20    C21     1.854   .     S
+C21    C28     1.445   .     S
+C21    C27     1.438   .     S
+C22    C27     1.445   .     S
+C22    C28     1.438   1_565 S
+P23    P24     2.299   .     S
+P23    P26     2.285   .     S
+P23    C28     1.859   .     S
+P24    P25     2.285   1_545 S
+P25    P26     2.299   .     S
+P25    P24     2.285   1_565 S
+P26    C27     1.854   .     S
+C28    C22     1.438   1_545 S
